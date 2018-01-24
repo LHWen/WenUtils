@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6117080F201823D500E35C2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6117080E201823D500E35C2E /* AppDelegate.m */; };
+		61170812201823D500E35C2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61170811201823D500E35C2E /* ViewController.m */; };
+		61170815201823D500E35C2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61170813201823D500E35C2E /* Main.storyboard */; };
+		61170817201823D500E35C2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61170816201823D500E35C2E /* Assets.xcassets */; };
+		6117081A201823D500E35C2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61170818201823D500E35C2E /* LaunchScreen.storyboard */; };
+		6117081D201823D500E35C2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6117081C201823D500E35C2E /* main.m */; };
+		61170827201823D500E35C2E /* WenUtilsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61170826201823D500E35C2E /* WenUtilsDemoUITests.m */; };
+		61170838201824AA00E35C2E /* CreateViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 61170837201824AA00E35C2E /* CreateViewFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61170823201823D500E35C2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61170802201823D500E35C2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61170809201823D500E35C2E;
+			remoteInfo = WenUtilsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6117080A201823D500E35C2E /* WenUtilsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WenUtilsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6117080D201823D500E35C2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6117080E201823D500E35C2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61170810201823D500E35C2E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61170811201823D500E35C2E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61170814201823D500E35C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61170816201823D500E35C2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61170819201823D500E35C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6117081B201823D500E35C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6117081C201823D500E35C2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61170822201823D500E35C2E /* WenUtilsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WenUtilsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61170826201823D500E35C2E /* WenUtilsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WenUtilsDemoUITests.m; sourceTree = "<group>"; };
+		61170828201823D500E35C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61170836201824AA00E35C2E /* CreateViewFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateViewFactory.h; sourceTree = "<group>"; };
+		61170837201824AA00E35C2E /* CreateViewFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateViewFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61170807201823D500E35C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6117081F201823D500E35C2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61170801201823D500E35C2E = {
+			isa = PBXGroup;
+			children = (
+				6117080C201823D500E35C2E /* WenUtilsDemo */,
+				61170825201823D500E35C2E /* WenUtilsDemoUITests */,
+				6117080B201823D500E35C2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6117080B201823D500E35C2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6117080A201823D500E35C2E /* WenUtilsDemo.app */,
+				61170822201823D500E35C2E /* WenUtilsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6117080C201823D500E35C2E /* WenUtilsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				61170835201824AA00E35C2E /* WenUtils */,
+				6117080D201823D500E35C2E /* AppDelegate.h */,
+				6117080E201823D500E35C2E /* AppDelegate.m */,
+				61170810201823D500E35C2E /* ViewController.h */,
+				61170811201823D500E35C2E /* ViewController.m */,
+				61170813201823D500E35C2E /* Main.storyboard */,
+				61170816201823D500E35C2E /* Assets.xcassets */,
+				61170818201823D500E35C2E /* LaunchScreen.storyboard */,
+				6117081B201823D500E35C2E /* Info.plist */,
+				6117081C201823D500E35C2E /* main.m */,
+			);
+			path = WenUtilsDemo;
+			sourceTree = "<group>";
+		};
+		61170825201823D500E35C2E /* WenUtilsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61170826201823D500E35C2E /* WenUtilsDemoUITests.m */,
+				61170828201823D500E35C2E /* Info.plist */,
+			);
+			path = WenUtilsDemoUITests;
+			sourceTree = "<group>";
+		};
+		61170835201824AA00E35C2E /* WenUtils */ = {
+			isa = PBXGroup;
+			children = (
+				61170836201824AA00E35C2E /* CreateViewFactory.h */,
+				61170837201824AA00E35C2E /* CreateViewFactory.m */,
+			);
+			path = WenUtils;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61170809201823D500E35C2E /* WenUtilsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6117082B201823D500E35C2E /* Build configuration list for PBXNativeTarget "WenUtilsDemo" */;
+			buildPhases = (
+				61170806201823D500E35C2E /* Sources */,
+				61170807201823D500E35C2E /* Frameworks */,
+				61170808201823D500E35C2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WenUtilsDemo;
+			productName = WenUtilsDemo;
+			productReference = 6117080A201823D500E35C2E /* WenUtilsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61170821201823D500E35C2E /* WenUtilsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6117082E201823D500E35C2E /* Build configuration list for PBXNativeTarget "WenUtilsDemoUITests" */;
+			buildPhases = (
+				6117081E201823D500E35C2E /* Sources */,
+				6117081F201823D500E35C2E /* Frameworks */,
+				61170820201823D500E35C2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61170824201823D500E35C2E /* PBXTargetDependency */,
+			);
+			name = WenUtilsDemoUITests;
+			productName = WenUtilsDemoUITests;
+			productReference = 61170822201823D500E35C2E /* WenUtilsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61170802201823D500E35C2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = LHWen;
+				TargetAttributes = {
+					61170809201823D500E35C2E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					61170821201823D500E35C2E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61170809201823D500E35C2E;
+					};
+				};
+			};
+			buildConfigurationList = 61170805201823D500E35C2E /* Build configuration list for PBXProject "WenUtilsDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61170801201823D500E35C2E;
+			productRefGroup = 6117080B201823D500E35C2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61170809201823D500E35C2E /* WenUtilsDemo */,
+				61170821201823D500E35C2E /* WenUtilsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61170808201823D500E35C2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6117081A201823D500E35C2E /* LaunchScreen.storyboard in Resources */,
+				61170817201823D500E35C2E /* Assets.xcassets in Resources */,
+				61170815201823D500E35C2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61170820201823D500E35C2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61170806201823D500E35C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61170812201823D500E35C2E /* ViewController.m in Sources */,
+				61170838201824AA00E35C2E /* CreateViewFactory.m in Sources */,
+				6117081D201823D500E35C2E /* main.m in Sources */,
+				6117080F201823D500E35C2E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6117081E201823D500E35C2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61170827201823D500E35C2E /* WenUtilsDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61170824201823D500E35C2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61170809201823D500E35C2E /* WenUtilsDemo */;
+			targetProxy = 61170823201823D500E35C2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61170813201823D500E35C2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61170814201823D500E35C2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61170818201823D500E35C2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61170819201823D500E35C2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61170829201823D500E35C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6117082A201823D500E35C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6117082C201823D500E35C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WenUtilsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.LHWen.WenUtilsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6117082D201823D500E35C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WenUtilsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.LHWen.WenUtilsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6117082F201823D500E35C2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WenUtilsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.LHWen.WenUtilsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WenUtilsDemo;
+			};
+			name = Debug;
+		};
+		61170830201823D500E35C2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WenUtilsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.LHWen.WenUtilsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WenUtilsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61170805201823D500E35C2E /* Build configuration list for PBXProject "WenUtilsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61170829201823D500E35C2E /* Debug */,
+				6117082A201823D500E35C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6117082B201823D500E35C2E /* Build configuration list for PBXNativeTarget "WenUtilsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6117082C201823D500E35C2E /* Debug */,
+				6117082D201823D500E35C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6117082E201823D500E35C2E /* Build configuration list for PBXNativeTarget "WenUtilsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6117082F201823D500E35C2E /* Debug */,
+				61170830201823D500E35C2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61170802201823D500E35C2E /* Project object */;
+}
